@@ -27,10 +27,8 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.io.IOException;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@AutoConfigureMockMvc
+@SpringBootTest
 @RunWith(SpringRunner.class)
-//@WebMvcTest(UserController.class)
 public class UserControllerTest {
 
 //    @Resource
